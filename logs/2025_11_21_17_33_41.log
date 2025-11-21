@@ -1,0 +1,14 @@
+2025-11-21 17:33:41,637 - src.components.data_ingestion - INFO - Data Ingestion started
+2025-11-21 17:33:41,639 - src.components.data_ingestion - INFO - Dataset loaded successfully
+2025-11-21 17:33:41,640 - src.components.data_ingestion - INFO - Average score column created
+2025-11-21 17:33:41,640 - src.components.data_ingestion - INFO - Train-test split started
+2025-11-21 17:33:41,647 - src.components.data_ingestion - INFO - Data Ingestion completed successfully
+2025-11-21 17:33:41,647 - src.components.data_transformation - INFO - Data Transformation started
+2025-11-21 17:33:41,650 - src.components.data_transformation - INFO - Train and Test data loaded
+2025-11-21 17:33:41,651 - src.components.data_transformation - INFO - Preparing data transformation pipeline
+2025-11-21 17:33:41,651 - src.components.data_transformation - INFO - Applying preprocessing pipeline
+2025-11-21 17:33:41,736 - src.components.data_transformation - INFO - Preprocessor saved successfully
+2025-11-21 17:33:41,736 - src.components.model_trainer - INFO - Model Training started
+2025-11-21 17:33:42,336 - src.components.model_trainer - INFO - Model Scores: {'LinearRegression': 1.0, 'RandomForest': 0.9934813938388299, 'GradientBoosting': 0.9957004324473817}
+2025-11-21 17:33:42,336 - src.components.model_trainer - INFO - Best Model: LinearRegression
+2025-11-21 17:33:42,336 - src.components.model_trainer - INFO - Best model saved successfully
