@@ -50,18 +50,18 @@ Final Performance Score
 🧱 Project Architecture
 student-performance-ml/
 │
-├── artifacts/                # Saved model & preprocessor
-├── logs/                     # Log files
-├── notebook/                 # EDA & experimentation
+├── artifacts/ # Saved model & preprocessor
+├── logs/ # Log files
+├── notebook/ # EDA & experimentation
 ├── src/
-│   ├── components/
-│   ├── utils.py
-│   ├── exception.py
-│   └── logger.py
+│ ├── components/
+│ ├── utils.py
+│ ├── exception.py
+│ └── logger.py
 ├── templates/
-│   └── index.html            # Web UI template
-├── app.py                    # Flask web application
-├── predict.py                # Script for manual predictions
+│ └── index.html # Web UI template
+├── app.py # Flask web application
+├── predict.py # Script for manual predictions
 ├── requirements.txt
 └── README.md
 
