@@ -1,34 +1,37 @@
 📘 Student Performance Prediction – End-to-End Machine Learning Web Application
 🧠 Overview
 
-This project predicts student performance using Machine Learning techniques. By analyzing demographic, behavioral, and academic factors, the model estimates a student’s final score and uncovers insights that influence learning outcomes.
+This project predicts student performance using Machine Learning techniques. By analyzing demographic, behavioral, and academic factors, the model estimates a student’s final score and provides insights that can support educational decisions.
 
-✅ Complete ML pipeline
-✅ Automated preprocessing & model training
-✅ Saved model artifacts
-✅ Flask-based web application for real-time prediction
+The project includes:
+
+End-to-end ML pipeline
+
+Automated preprocessing and model training
+
+Saved model artifacts
+
+Flask-based web application for real-time prediction
 
 🎯 Objectives
 
 Analyze factors affecting student performance
 
-Build a regression model to predict final scores
+Predict final exam scores
 
-Create a modular, scalable ML pipeline
+Build a modular, scalable ML pipeline
 
-Develop a user-friendly web interface for predictions
+Provide a web-based interface for user input and prediction
 
 📊 Dataset Description
 
-Each row represents a student with features affecting academic performance.
-
-Key Features
+Each record in the dataset represents a student and includes:
 
 Gender
 
 Race/Ethnicity
 
-Parental Education
+Parental Level of Education
 
 Lunch Type
 
@@ -42,23 +45,23 @@ Writing Score
 
 Target Variable
 
-✅ Final performance score
+Final Performance Score
 
-🧱 Updated Project Architecture
+🧱 Project Architecture
 student-performance-ml/
 │
 ├── artifacts/                # Saved model & preprocessor
 ├── logs/                     # Log files
 ├── notebook/                 # EDA & experimentation
-├── src/                      # Modular ML pipeline components
+├── src/
 │   ├── components/
 │   ├── utils.py
 │   ├── exception.py
 │   └── logger.py
-├── templates/                # ✅ Web UI templates
-│   └── index.html
-├── app.py                    # ✅ Flask web application
-├── predict.py                # Prediction script
+├── templates/
+│   └── index.html            # Web UI template
+├── app.py                    # Flask web application
+├── predict.py                # Script for manual predictions
 ├── requirements.txt
 └── README.md
 
@@ -77,24 +80,27 @@ Model Training & Evaluation
     ↓
 Save Artifacts (model.pkl, preprocessor.pkl)
     ↓
-Flask Web App for Prediction ✅
+Flask Web App for Prediction
 
 🌐 Web Application
 
 A browser-based interface allows users to:
 
-✅ Select demographic and preparation factors
-✅ Enter exam scores
-✅ Click Predict
-✅ View predicted performance instantly
+Select demographic and preparation factors
 
-UI Screenshot (Optional)
+Enter exam scores
 
-You can insert the form screenshot here later.
+Click “Predict”
+
+View predicted performance instantly
+
+UI Screenshot
+
+(You can insert the screenshot here later.)
 
 📈 Model Performance
 
-Metrics used:
+Evaluation metrics used:
 
 R² Score
 
@@ -102,7 +108,7 @@ RMSE
 
 MAE
 
-✅ (Replace with actual values when finalized)
+(You may update with actual values.)
 
 🛠️ Tech Stack
 
@@ -112,9 +118,9 @@ Pandas / NumPy
 
 Scikit-Learn
 
-Flask ✅
+Flask
 
-HTML / Jinja Templates ✅
+HTML / Jinja Templates
 
 Git & GitHub
 
@@ -133,27 +139,27 @@ python app.py
 
 4️⃣ Open in Browser
 
-Flask will start on port 5000.
-If using Codespaces:
-✅ Click Open in Browser from forwarded port link.
+If running locally: open http://127.0.0.1:5000
 
-You should see the web form UI.
+If using Codespaces: click Open in Browser from the forwarded port
+
+You will see the prediction form.
 
 🧪 Optional: Run Prediction Script
 python predict.py
 
 🔮 Future Enhancements
 
-UI styling with Bootstrap
+UI styling (Bootstrap)
 
-Deployment on Render/Railway
+Deployment on Render / Railway
 
-Feature importance visualization
+Model explainability (Feature Importance)
 
 Hyperparameter tuning
 
-Model versioning & monitoring
+Model monitoring & versioning
 
-🧑‍💻 Author
+👤 Author
 
 Ramji Lal Jhanginia
