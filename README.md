@@ -46,16 +46,16 @@ To understand how different factors influence academic outcomes and predict perf
 🧱 Project Architecture
 student-performance-ml/
 │
-├── artifacts/          # Saved models & preprocessing objects
-├── logs/               # Log files
-├── notebook/           # EDA and experimentation
-├── src/                # Modular Python source code
-│   ├── components/     # Data pipeline modules
-│   ├── utils.py
-│   ├── exception.py
-│   └── logger.py
-├── app.py              # Pipeline entry point
-├── requirements.txt    # Dependencies
+├── artifacts/ # Saved models & preprocessing objects
+├── logs/ # Log files
+├── notebook/ # EDA and experimentation
+├── src/ # Modular Python source code
+│ ├── components/ # Data pipeline modules
+│ ├── utils.py
+│ ├── exception.py
+│ └── logger.py
+├── app.py # Pipeline entry point
+├── requirements.txt # Dependencies
 └── README.md
 
 🚀 Workflow
